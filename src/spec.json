@@ -1,0 +1,283 @@
+{
+  "title": "Monitoraggio consumi energetici",
+  "description": "Prototipo per controllare consumi mensili degli edifici pubblici, confrontare periodi e registrare rilevazioni. I dati sono interamente inventati; il grafico mensile è rappresentato da valori in tabella.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica dei consumi mensili e confronto tra edifici. Le rilevazioni sono consultabili nella tabella dedicata.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "12.480 kWh"
+        },
+        {
+          "label": "Variazione sul mese precedente",
+          "value": "−4,2%"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "4"
+        },
+        {
+          "label": "Rilevazioni registrate",
+          "value": "16"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Edificio",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "Palazzo Nubi",
+          "3.420",
+          "—"
+        ],
+        [
+          "Febbraio",
+          "Palazzo Nubi",
+          "3.180",
+          "−7,0"
+        ],
+        [
+          "Marzo",
+          "Palazzo Nubi",
+          "3.050",
+          "−4,1"
+        ],
+        [
+          "Aprile",
+          "Palazzo Nubi",
+          "2.830",
+          "−7,2"
+        ],
+        [
+          "Gennaio",
+          "Centro Vela",
+          "2.760",
+          "—"
+        ],
+        [
+          "Febbraio",
+          "Centro Vela",
+          "2.680",
+          "−2,9"
+        ],
+        [
+          "Marzo",
+          "Centro Vela",
+          "2.540",
+          "−5,2"
+        ],
+        [
+          "Aprile",
+          "Centro Vela",
+          "2.470",
+          "−2,8"
+        ],
+        [
+          "Gennaio",
+          "Archivio Lumo",
+          "1.980",
+          "—"
+        ],
+        [
+          "Febbraio",
+          "Archivio Lumo",
+          "1.860",
+          "−6,1"
+        ],
+        [
+          "Marzo",
+          "Archivio Lumo",
+          "1.790",
+          "−3,8"
+        ],
+        [
+          "Aprile",
+          "Archivio Lumo",
+          "1.710",
+          "−4,5"
+        ],
+        [
+          "Gennaio",
+          "Casa Riva",
+          "2.130",
+          "—"
+        ],
+        [
+          "Febbraio",
+          "Casa Riva",
+          "2.060",
+          "−3,3"
+        ],
+        [
+          "Marzo",
+          "Casa Riva",
+          "1.980",
+          "−3,9"
+        ],
+        [
+          "Aprile",
+          "Casa Riva",
+          "1.920",
+          "−3,0"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "rilevazioni",
+      "title": "Rilevazioni",
+      "description": "Consulta e filtra le letture per mese, edificio e tipo di energia. Inserisci una nuova rilevazione con il modulo.",
+      "metrics": [
+        {
+          "label": "Totale rilevato",
+          "value": "12.480 kWh"
+        },
+        {
+          "label": "Edifici con letture",
+          "value": "4"
+        },
+        {
+          "label": "Ultimo mese registrato",
+          "value": "Aprile"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Tipo energia",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ],
+      "rows": [
+        [
+          "Palazzo Nubi",
+          "Aprile",
+          "Elettricità",
+          "2.830",
+          "−7,2"
+        ],
+        [
+          "Centro Vela",
+          "Aprile",
+          "Elettricità",
+          "2.470",
+          "−2,8"
+        ],
+        [
+          "Archivio Lumo",
+          "Aprile",
+          "Elettricità",
+          "1.710",
+          "−4,5"
+        ],
+        [
+          "Casa Riva",
+          "Aprile",
+          "Elettricità",
+          "1.920",
+          "−3,0"
+        ],
+        [
+          "Palazzo Nubi",
+          "Marzo",
+          "Elettricità",
+          "3.050",
+          "−4,1"
+        ],
+        [
+          "Centro Vela",
+          "Marzo",
+          "Elettricità",
+          "2.540",
+          "−5,2"
+        ],
+        [
+          "Archivio Lumo",
+          "Marzo",
+          "Elettricità",
+          "1.790",
+          "−3,8"
+        ],
+        [
+          "Casa Riva",
+          "Marzo",
+          "Elettricità",
+          "1.980",
+          "−3,9"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Mese",
+        "Tipo energia",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ]
+    },
+    {
+      "id": "edifici",
+      "title": "Edifici",
+      "description": "Elenco degli edifici inclusi nel monitoraggio, con area d’uso e stato delle rilevazioni. Filtra la tabella per consultare le sedi.",
+      "metrics": [
+        {
+          "label": "Edifici censiti",
+          "value": "4"
+        },
+        {
+          "label": "Con rilevazioni recenti",
+          "value": "4"
+        },
+        {
+          "label": "Tipi di utilizzo",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Tipologia",
+        "Area (m2)",
+        "Stato monitoraggio"
+      ],
+      "rows": [
+        [
+          "Palazzo Nubi",
+          "Uffici civici",
+          "2.400",
+          "Attivo"
+        ],
+        [
+          "Centro Vela",
+          "Servizi culturali",
+          "1.650",
+          "Attivo"
+        ],
+        [
+          "Archivio Lumo",
+          "Archivio",
+          "980",
+          "Attivo"
+        ],
+        [
+          "Casa Riva",
+          "Servizi di quartiere",
+          "1.320",
+          "Attivo"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Tipologia",
+        "Area (m2)",
+        "Stato monitoraggio"
+      ]
+    }
+  ]
+}
